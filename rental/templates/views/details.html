@@ -1,0 +1,16 @@
+{% extends "views/layout.html" %}
+
+{% block content %}
+
+<h1>Details</h1>
+<h4>For movie {{ id }}</h4>
+
+<hr>
+
+Id: {{ movie.id }}<br>
+Title: {{movie.title}}<br>
+Year: {{movie.release_year}}<br>
+
+
+
+{% endblock %}
